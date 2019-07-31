@@ -139,7 +139,7 @@ Try {
 		}
 
 		## <Perform Installation tasks here>
-        Execute-Process -Path "$dirFiles\AdskLicensing-installer.exe" -Parameters '--unattendedmodeui none' -WindowStyle 'Hidden' -WaitForMsiExec:$true
+        Execute-Process -Path "$dirFiles\AdskLicensing-installer.exe" -Parameters '--mode unattended --unattendedmodeui none' -WindowStyle 'Hidden' -WaitForMsiExec:$true
 
 		##*===============================================
 		##* POST-INSTALLATION
@@ -212,8 +212,8 @@ Catch {
 # SIG # Begin signature block
 # MIIOaQYJKoZIhvcNAQcCoIIOWjCCDlYCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUW13afWvAcaF6n4zHKiwvirI7
-# p0+ggguhMIIFrjCCBJagAwIBAgIQBwNx0Q95WkBxmSuUB2Kb4jANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQULNUQBuaMdWuTbvGuWrMYr2vH
+# Hf2ggguhMIIFrjCCBJagAwIBAgIQBwNx0Q95WkBxmSuUB2Kb4jANBgkqhkiG9w0B
 # AQsFADB8MQswCQYDVQQGEwJVUzELMAkGA1UECBMCTUkxEjAQBgNVBAcTCUFubiBB
 # cmJvcjESMBAGA1UEChMJSW50ZXJuZXQyMREwDwYDVQQLEwhJbkNvbW1vbjElMCMG
 # A1UEAxMcSW5Db21tb24gUlNBIENvZGUgU2lnbmluZyBDQTAeFw0xODA2MjEwMDAw
@@ -280,11 +280,11 @@ Catch {
 # BAsTCEluQ29tbW9uMSUwIwYDVQQDExxJbkNvbW1vbiBSU0EgQ29kZSBTaWduaW5n
 # IENBAhAHA3HRD3laQHGZK5QHYpviMAkGBSsOAwIaBQCgeDAYBgorBgEEAYI3AgEM
 # MQowCKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisGAQQB
-# gjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBTtVy04HtxrDI+N
-# uxn1YBO9/EUI+zANBgkqhkiG9w0BAQEFAASCAQAJ3Crw+VqIgRtQPN1ioBW6Ve1I
-# 7vDiMxsDH7+Vj+i+s7lacQkv4aiJYWxRZ3bBywhK5EnCkwG08siBxcyvr91mRMtI
-# GErcSoL7Py3bfUc8vYReCQy+tm+PWGSHdQvjQQu1duKuHGEf2Qibgv+58qXxgd2Y
-# VQ2If70v3wR8oVJmYfS1ux918ZCkkSyi95+Y/IP4f22AN5pHx/xfLwIWWOyMOq1w
-# htVP5pK3UT/g0Rv3o4hXDhHhuf7kfXmKZ9cyzz1Tl8LuCh9D8nD9fh6CC54rX7++
-# 8z5dkCBQbMBpdeco8dAnb7W/oNhU7OIYI5JljLxyeZm7aqqJBs0wJ0AEUSq1
+# gjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBR/8hFrYtLAV6cU
+# v5c473rVByg6ajANBgkqhkiG9w0BAQEFAASCAQBVRe5p+9qfx78fvDzMVGEJHMHx
+# YbWEe3cYmk0G4OQAbUJTKhUXzI1cmsiM2kyrc3B3GUnhog5MKWHTprXohWoIWvcP
+# seOHnaouHm80rPakDROH1hXNhRtskqqj0VbiIe/sDNiHMsOFprbemn6VrMFrOD8b
+# hrVkhj2CbLjADgHgNdzSpJGwpmnwH/ViQ9fb5WM1bGTG4vrWEYY/eNm85LCCj4ut
+# dZwqGS0WnKROtuHGyr+nA9w3Xe2Id+R9RQ75pcnRaRdhQZb+DFHJ32YPzNG/shNu
+# JAX5026saiL48Mv1j2cc46YWxMP9oZyxxPEmqft6yK1f/Sl878GGcaj8MINO
 # SIG # End signature block
