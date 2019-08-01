@@ -65,7 +65,7 @@ Try {
 	## Variables: Application
 	[string]$appVendor = 'Autodesk'
 	[string]$appName = 'Licensing Installer'
-	[string]$appVersion = '9.0.3.46'
+	[string]$appVersion = '9.2.1.2399'
 	[string]$appArch = 'x64'
 	[string]$appLang = 'EN'
 	[string]$appRevision = '01'
